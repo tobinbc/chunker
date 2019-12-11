@@ -1,7 +1,7 @@
 {
   "name": "@tobinbc/chunker",
   "version": "1.0.0",
-  "description": "Tiny function to chunk an array into an array of smaller arrays",
+  "description": "Tiny function to split an array into chunks, returned as an array of arrays",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
@@ -22,9 +22,15 @@
     "url": "https://github.com/tobinbc/chunker/issues"
   },
   "homepage": "https://github.com/tobinbc/chunker#readme",
-  "keywords": [],
+  "keywords": [
+    "chunk",
+    "array",
+    "aws",
+    "sdk",
+    "split"
+  ],
   "devDependencies": {
-    "@types/jest": "^24.0.17",
+    "@types/jest": "^24.0.23",
     "@types/node": "^12.7.2",
     "jest": "^24.8.0",
     "prettier": "^1.18.2",
@@ -35,9 +41,8 @@
   },
   "files": [
     "lib/**/*",
-    "src/**/*",
     "*.json"
   ],
   "author": "Tobin Chew",
-  "license": "ISC"
+  "license": "MIT"
 }
