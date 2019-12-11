@@ -2,7 +2,8 @@
   "name": "@tobinbc/chunker",
   "version": "1.1.0",
   "description": "Tiny function to split an array into chunks, returned as an array of arrays",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
