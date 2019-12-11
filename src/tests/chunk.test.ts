@@ -4,7 +4,7 @@ test('Plain array', () => {
     const input = [
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
     ];
-    let output = chunker<string>(input, 3)
+    let output = chunker<typeof input[0]>(input, 3)
     let expected = [
         [1, 2, 3],
         [4, 5, 6],
@@ -20,6 +20,6 @@ test('Input type error', () => {
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
     ];
     expect(() => {
-        chunker<string>(input, -1)
+        chunker<typeof input[0]>(input, -1)
     }).toThrow(TypeError)
 })
