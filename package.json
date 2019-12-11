@@ -1,6 +1,6 @@
 {
   "name": "@tobinbc/chunker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tiny function to split an array into chunks, returned as an array of arrays",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
